@@ -1,4 +1,4 @@
-const PIN_CODE_PATTERN = RegExp("[0-9]{6}");
+const PIN_CODE_PATTERN = RegExp("^[0-9]{6}");
 
 class PINCode {
 
