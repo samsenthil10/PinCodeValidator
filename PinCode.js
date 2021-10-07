@@ -1,4 +1,4 @@
-const PIN_CODE_PATTERN = RegExp("^[0-9]{6}");
+const PIN_CODE_PATTERN = RegExp("^[0-9]{6}$");
 
 class PINCode {
 
@@ -14,3 +14,5 @@ class PINCode {
 
 let pincode = new PINCode();
 pincode.vaildatePinCode("400088");
+pincode.vaildatePinCode("A400088");
+pincode.vaildatePinCode("400088B");
